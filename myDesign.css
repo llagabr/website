@@ -216,7 +216,7 @@ button:active{
 }
 .box-container{
     display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
 }
 .box-1{
     background-image: url("fot2.jpg");
