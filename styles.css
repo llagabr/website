@@ -388,7 +388,7 @@ footer p{
     font-family: calibri;
 }
 footer p:nth-child(1){
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: #l9l9l9;
     line-height:10px;
