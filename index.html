@@ -2,28 +2,41 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
-    <link rel="stylesheet" type="text/css" href="myDesign.css" />
-    <!---using fontAwesome-->
+
+    <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+
+    <title>Personal Website</title>
 
 </head>
 
 <body>
-    <section>
+    <section class="light">
         <!--navigation----------------->
-        <nav>
+        <nav class="navbar">
             <!--logo----------------->
-            <a href="#" class="logo">ElLangua</a>
+            <div class="brand-title">
+                <p>ElLangua</p>
+                <p>Translation & Copywriting</p>
+            </div>
+            <!--hamburger------->
+
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+
             <!--menu---------------------->
-            <ul>
-                <li><a href="#" class="active">HOME</a></li>
-                <li><a href="#services_down">SERVICES</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <!--<li><a href="#">MY BLOG</a></li>-->
-            </ul>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#" class="active">HOME</a></li>
+                    <li><a href="#services_down">SERVICES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <!--<li><a href="#">MY BLOG</a></li>-->
+                </ul>
+            </div>
         </nav>
         <!--text--------------->
         <div class="text-container">
@@ -31,34 +44,34 @@
             <p>I'M GABRIELLA</p>
             <p>I am a Translator, Copywriter<br> & future Web Designer</p>
             <button class="hire-btn">Work with me</button>
-            <button class="down-cv">Download CV</button>
+            <button class="down-cv">View CV</button>
         </div>
         <!--model--------------------------------->
-        <img src="fot1.png" class="foto" alt="photo">
+        <img src="fot5.jpg" class="foto" alt="photo">
     </section>
     <!--about section------------------------------->
-    <div class="about-container">
-        <!---img
+    <section class="darker">
+        <div class="about-container">
+            <!---img
         <img src="fotkorr2.png">---------------->
-        <!-----about -text--------------->
-        <div class="about-text">
-            <p>About Me</p>
-            <p>Translator, Copywriter & future Web Designer</p>
-            <p>I am a Hungarian freelancer, currently based in Poland. I speak French and English fluently and I am
-                learning Polish and Italian. By profession I am a translator and interpreter
-                with 6 years of
-                experience. The fields of my
-                experience as a translator include Engineering, Health Care, Law, Life
-                Sciences and Education.
-            <p>If you are looking for a translator who has both practical language and business experience, I'll be
-                happy to offer my support.</p>
-            </p>
-            <!----button------------->
-            <button>Work with me</button>
-            <button>View CV</button>
+            <!-----about -text--------------->
+            <div class="about-text">
+                <p>About Me</p>
+                <p>Translator, Copywriter & future Web Designer</p>
+                <p>I am a Hungarian freelancer, currently based in Poland. I speak French and English fluently, while
+                    Italian and Polish on a beginner level. By profession I am a translator and interpreter
+                    with 6 years of
+                    experience within the fields of Engineering, Health Care, Law, Life
+                    Sciences and Education.
+                <p>If you are looking for a translator who has both practical language and business experience, I'll be
+                    happy to offer my support.</p>
+                </p>
+                <!----button------------->
+                <button>Work with me</button>
+                <button>View CV</button>
+            </div>
         </div>
-
-    </div>
+    </section>
     <!----services----------------------->
     <div class="services">
 
@@ -108,7 +121,7 @@
     <!--footer-------------------------------->
     <footer>
         <p>
-            ELLAngua Translation & Copywriting
+            ElLAngua Translation & Copywriting
         </p>
         <p>I work fast and with the biggest care. I will be making modifications until you are 100% satisfied with the
             result.</p>
@@ -121,7 +134,7 @@
         </div>
         ------------------->
         <!--copyright---------------->
-        <p class="copyright">Copyright by ELLAngua</p>
+        <p class="copyright">Copyright by ElLAngua</p>
 
     </footer>
     <!--attached social bar
