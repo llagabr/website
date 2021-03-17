@@ -377,7 +377,7 @@ color: #8f8f8f;
     font-weight: bold;
 }
 footer{
-    height: 220px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
