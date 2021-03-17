@@ -39,6 +39,10 @@ body {
     font-weight: bold;
 }
 
+.brand-title p:nth-child(2) {
+    font-weight: lighter;
+}
+
 .navbar-links {
     height: 100%;
 }
