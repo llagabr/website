@@ -66,8 +66,9 @@ body {
     padding: 1.5rem;
 }
 
-.navbar-links li:hover {
+.navbar-links li a:hover {
     background-color: #555;
+    color: white
 }
 
 .toggle-button {
