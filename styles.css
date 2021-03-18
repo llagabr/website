@@ -470,9 +470,10 @@ transition: all ease 0.5s;
     overflow:hidden;
     white-space:nowrap;
   }
-  
-  
-  .text-container p:first-of-type {    /* For increasing performance 
+
+
+  .text-container p:first-of-type {    
+/* For increasing performance 
                          ID/Class should've been used. 
                          For a small demo 
                          it's okaish for now */
@@ -487,6 +488,13 @@ transition: all ease 0.5s;
   .text-container p:nth-of-type(2) {
     margin-left:-300px;
     animation: slidein 7s infinite;
+  }
+
+.hire-btn {
+    animation: showup 4s;
+  }
+  .down-cv {
+    animation: showup 4s;
   }
 
 @keyframes showup {
@@ -510,4 +518,3 @@ transition: all ease 0.5s;
     80% {opacity:1;}
     100% {opacity:0;width:355px;}
 }
-
