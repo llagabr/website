@@ -346,7 +346,7 @@ button:active{
 .box-3{
     background-image: url("fot4.jpg");
 }
-/*.box-1 span,
+.box-1 span,
 .box-2 span,
 .box-3 span{
     width:40px;
@@ -354,7 +354,7 @@ button:active{
     border-radius: 50%;
     background-color: #ffffff;
     display: flex;
-    justify-content: center;
+   /*justify-content: center;*/
     align-items: center;
     font-family: calibri;
     font-weight: bold;
