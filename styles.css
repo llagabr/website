@@ -30,7 +30,8 @@ body {
  /*background-color: rgb(243, 239, 243);*/
  background-color: white;
     color: rgb(26, 26, 116)
-    line-height: .1rem;
+    /*line-height: .1rem;*/
+        line-height: 0.05rem;
 }
 
 .brand-title {
