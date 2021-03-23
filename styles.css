@@ -292,7 +292,7 @@ button:active{
     line-height: 0px;*/
     font-size: 25px;
     line-height: 5px;
-}
+
 }
 .services-text p:nth-child(2){
  /*   font-family: 'Fahkwang', sans-serif;*/
@@ -309,7 +309,7 @@ button:active{
     /*color: #7e7d7d;*/
     font-size: 25px;
     line-height: 5px;
-    text-align: justify;
+    
 }
 
 .exp{
@@ -330,7 +330,7 @@ button:active{
     box-shadow:2px 2px 12px rgba(0,0,0,0.3);
     display: flex;
     justify-content: center;
-    align-items: justify;
+    align-items: center;
     flex-direction: column;
 }
 .box-container{
@@ -346,7 +346,7 @@ button:active{
 .box-3{
     background-image: url("fot4.jpg");
 }
-.box-1 span,
+/*.box-1 span,
 .box-2 span,
 .box-3 span{
     width:40px;
