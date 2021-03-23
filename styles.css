@@ -329,7 +329,7 @@ button:active{
     background-size:cover;
     box-shadow:2px 2px 12px rgba(0,0,0,0.3);
     display: flex;
-    /*justify-content: center;*/
+    justify-content: center;
     align-items: justify;
     flex-direction: column;
 }
@@ -354,7 +354,7 @@ button:active{
     border-radius: 50%;
     background-color: #ffffff;
     display: flex;
-   /*justify-content: center;*/
+   justify-content: center;
     align-items: center;
     font-family: calibri;
     font-weight: bold;
