@@ -329,8 +329,8 @@ button:active{
     background-size:cover;
     box-shadow:2px 2px 12px rgba(0,0,0,0.3);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;*/
+    align-items: justify;
     flex-direction: column;
 }
 .box-container{
