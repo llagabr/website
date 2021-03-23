@@ -425,8 +425,9 @@ footer{
     justify-content: center;
     align-items: center;
     position: relative;
-    /*background-color: rgb(128, 101, 114);*/
-    background-color: rgb(19, 3, 56);
+    /*background-color: rgb(128, 101, 114);
+    background-color: rgb(19, 3, 56);*/
+    background-color: rgb(13, 1, 41);
     line-height: .2rem;
 }
 footer p{
