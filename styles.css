@@ -552,6 +552,10 @@ transition: all ease 0.5s;
     animation: /*reveal*/ slidein 10s infinite;
   }
 
+.fadeButton {
+    display: none;
+  }
+
   .hire-btn {
     animation: showup 4s;
   }
